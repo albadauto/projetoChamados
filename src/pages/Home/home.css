@@ -32,3 +32,23 @@
 .content-table tbody tr:last-of-type{
     border-bottom: 2px solid blueviolet;
 }
+
+.btnModal:active,
+.btnModal:focus,
+.btnModal{
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.btnModal:hover{
+    background-color: #222;
+    border-color: blueviolet;
+}       
+
+.modal-cadastrar{
+    background-color: #222;
+    color: white;
+}
+
+
+

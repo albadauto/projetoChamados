@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home/Index';
 import Login from './pages/Login/Index';
-import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 
 const App = () => {
