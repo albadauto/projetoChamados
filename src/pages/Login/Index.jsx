@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './login.css';
 import img from '../../assets/img/img.svg';
 import { useState } from 'react';
@@ -11,7 +11,6 @@ const Login = () => {
         user:"",
         password:""
     });
-
 
     const handleOnSubmit = (e) => {
         e.preventDefault();
@@ -26,6 +25,7 @@ const Login = () => {
             
         });
     }
+
 
     return (
         <div className='main-login'>

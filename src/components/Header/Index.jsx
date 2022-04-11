@@ -1,5 +1,6 @@
 import { Table } from '@mui/material';
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './header.css';
 const Header = () => {
     return ( 
@@ -7,13 +8,13 @@ const Header = () => {
             <div className="logo"></div>
             <ul>
                 <li>
-                    Home
+                   <Link to="/home">Home</Link>
                 </li>
                 <li>
-                    Sobre
+                    <Link to="/sobre">Sobre</Link>
                 </li>
                 <li>
-                    Contato
+                    <Link to='/contato'>Contato</Link>
                 </li>
             </ul>
         </header>

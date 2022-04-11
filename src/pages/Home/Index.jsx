@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Button, Col, Container, InputGroup, Row, Modal, Form } from 'react-bootstrap';
-import { useHistory } from 'react-router-dom';
+import { Button, Col, Container, Row, Modal, Form } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 import { api } from '../../api';
 import Header from '../../components/Header/Index';
@@ -17,11 +16,8 @@ const Home = () => {
     const handleShow = () => setShow(true);
     const handleDeleteChamado = (id) => {
         api.get(`/chamados/deleteChamado/${id}`).then(() => {
-            toast.error("Deletado com sucesso!");
-            setTimeout(() => {
-                document.location.reload();
-            }, 800)
-        })
+            document.location.reload();
+        }) 
     }
 
     useEffect(() => {
