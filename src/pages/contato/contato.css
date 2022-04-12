@@ -1,0 +1,10 @@
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+
+.label-form{
+    color: #fff;
+    text-shadow: 0 0 11px #fff;
+}

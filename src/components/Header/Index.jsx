@@ -1,4 +1,3 @@
-import { Table } from '@mui/material';
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './header.css';
@@ -15,6 +14,9 @@ const Header = () => {
                 </li>
                 <li>
                     <Link to='/contato'>Contato</Link>
+                </li>
+                <li>
+                    <Link to="/">Sair</Link>
                 </li>
             </ul>
         </header>
